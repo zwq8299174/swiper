@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+<title></title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-transform " />
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth/640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <link rel="stylesheet" href="css/global.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="scripts/require.js" data-main="scripts/app.js" defer async="true"></script>
+</head>
+<body>
+
+    <aside id="loading">
+        <img src="img/icon.jpg" class="icon" />
+        <h1 >攻略秘籍</h1>
+        <h2>最新攻略一手掌握</h2>
+        <p class="line"></p>
+        <div id="fountainTextG">
+            <div id="fountainTextG_1" class="fountainTextG">
+                L</div>
+            <div id="fountainTextG_2" class="fountainTextG">
+                o</div>
+            <div id="fountainTextG_3" class="fountainTextG">
+                a</div>
+            <div id="fountainTextG_4" class="fountainTextG">
+                d</div>
+            <div id="fountainTextG_5" class="fountainTextG">
+                i</div>
+            <div id="fountainTextG_6" class="fountainTextG">
+                n</div>
+            <div id="fountainTextG_7" class="fountainTextG">
+                g</div>
+            <div id="fountainTextG_8" class="fountainTextG">
+                .</div>
+            <div id="fountainTextG_9" class="fountainTextG">
+                .</div>
+            <div id="fountainTextG_10" class="fountainTextG">
+                .</div>
+        </div>
+        <a href="#" class="download">立即下载</a>
+    </aside>
+
+    <section class="swiper-container" style="opacity: 0">
+        <div class="swiper-wrapper">
+
+            <article class="swiper-slide swiper-slide1" data-hash="page1">
+                <img src="img/icon.jpg" class="icon  ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" />
+                <img src="img/puple.png" class="puple  ani"  swiper-animate-effect="rubberBand" swiper-animate-duration="1s" swiper-animate-delay="0s" />
+                <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s">攻略秘籍</h1>
+                <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s" >最新攻略一手掌握</h2>
+                <p class="line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></p>
+                <a href="http://downfile2.tgbusdata.cn/app/pcgame/android/pcgame.apk" class="download ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">立即下载</a>
+                <img src="img/page1mobile.png" class="page1mobile  ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="2s"/>
+                <img src="img/page1mobile_pic.png" class="page1mobile_pic  ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2.5s"/>
+            </article>
+
+            <article class="swiper-slide swiper-slide2" data-hash="page2">
+                <img src="img/page2mobile.png" class="page2mobile_pic  ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"/>
+                <h2 class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="0s">
+                    攻略秘册APP2.3<strong>重磅</strong>升级
+                </h2>
+                <ul>
+                    <li class="ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.1s">
+                       1.改进了搜索机制，搜索更准确
+                    </li>
+                    <li class="ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                       2.增加游戏精选内容，更好的浏览攻略
+                    </li>
+                    <li class="ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s">
+                       3.增加了按名称筛选和按类型筛选的功能
+                    </li>
+                    <li class="ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s">
+                        4.增加了一些提高用户体验的新功能
+                    </li>
+                </ul>
+            </article>
+
+            <article class="swiper-slide swiper-slide3" data-hash="page3">
+                <img src="img/page3moblie.png" class="page3mobile  ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0s"/>
+                <img src="img/page3moblie_pic.png" class="page3mobile_pic  ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+                <h2 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+                    热门游戏完整攻略<br/>
+                    <strong>第一时间</strong>首发</h2>
+                <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s">
+                    首发完整剧情攻略，各热门游<br/>
+                    戏主线、支线、剧情一体的攻<br/>
+                    略，是玩家必备的游戏百科全
+                </p>
+            </article>
+
+            <article class="swiper-slide swiper-slide4" data-hash="page4">
+                <img src="img/page4mobile.png" width="416" height="516" class="page4mobile  ani"  swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="0s"/>
+                <h2 class="ani"  swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    无需<strong>切出，随时</strong>查阅<br/>
+                    游戏攻略两不误
+                </h2>
+                <p class="ani"  swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    轩辕剑外传穹之扉、梦幻西游、我的世界已首<br/>
+                    发完整剧情攻略，各热门游戏主线、支<br/>
+                    线、剧情一体的攻略，是玩家必备的游<br/>
+                    戏百科全书
+                </p>
+            </article>
+
+            <article class="swiper-slide swiper-slide5" data-hash="page5">
+                <img src="img/page1mobile.png" class="page5mobile  ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s"/>
+                <img src="img/page1mobile_pic.png" class="page5mobile_pic  ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.2s"/>
+                <h2 class="ani"  swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                    <strong>精选</strong>内容，<strong>智能</strong>推荐 </h2>
+                <p class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                    智能推荐最最热门游戏，攻略<br/>
+                    玩法一应俱全，让你感兴趣的<br/>
+                    游戏，一个不落。
+                </p>
+            </article>
+
+            <article class="swiper-slide swiper-slide6" data-hash="page6">
+
+                <div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                    <img src="img/page6_pic.jpg" class="page6mobileImg"/>
+                    <img src="img/page2mobile.png" class="page6mobile" />
+                </div>
+
+                <h2 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+                    记录攻略进度，<br/>
+                    <strong>随时继续</strong>上一次游戏
+                </h2>
+
+                <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+                    妈妈再也不用为第二天我找不到游戏攻<br/>
+                    略而犯愁了，再看攻略可直接定位到最<br/>
+                    近的游戏进度
+                </p>
+            </article>
+
+        </div>
+
+        <a href="#" id="btn2">
+            <img src="img/bottom.png" class="bottom" id="bottom">
+        </a>
+    </section>
+</body>
+</html>
